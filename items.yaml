@@ -1,0 +1,14 @@
+---
+
+lemonade:
+  price: 0.0001
+  title: Lemonade (1 Cup) # title is optional, defaults to the keys
+
+lemonade-2:
+  price: 0.0001
+  title: Lemonade (2 Cups)
+
+lemonade-3:
+  price: 0.0003
+  title: Lemonade (3 Cups)
+
