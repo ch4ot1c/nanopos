@@ -1,7 +1,7 @@
 FROM node:carbon
 WORKDIR /opt/nanopos
-COPY package*.json ./
-RUN npm install
 COPY . .
+RUN npm install
+RUN npm run dist
 EXPOSE 9116
-CMD [ "npm", "start" ]
+CMD ["node", "./dist/cli.js"]
